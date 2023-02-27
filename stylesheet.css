@@ -12,6 +12,7 @@ a {
 }
 
 .container {
+  max-width: 1170px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -151,6 +152,7 @@ footer p {
 }
 
 footer {
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -167,10 +169,6 @@ footer {
 
   .lesson-wrapper {
     height: 990px;
-  }
-
-  footer {
-    text-align: center;
   }
 }
 
