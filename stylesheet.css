@@ -18,9 +18,11 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  position: relative;
+  padding: 60px 0 100px 0;
   background-image: url(./images/top.jpg);
   background-size: cover;
+  opacity: 0.8;
   color: white;
   text-align: center;
 }
@@ -43,19 +45,6 @@ a {
 
 .btn-wrapper p {
   margin-bottom: 20px;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
 }
 
 .btn {
@@ -84,11 +73,6 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
 .header-left {
   float: left;
 }
@@ -111,18 +95,15 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
-  height: 580px;
+.contents {
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0 5%;
   background-color: #f7f7f7;
-  text-align: center;
+  text-align: left;
 }
 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 30px;
   color: #5f5d60;
 }
 
@@ -130,28 +111,11 @@ header {
   font-weight: normal;
 }
 
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
-
 .text-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 15px;
   font-size: 13px;
-  color: #b3aeb5;
+  color: #424242;
 }
 
 .heading h3 {
@@ -189,14 +153,6 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
 }
 
 .clear {
@@ -239,10 +195,6 @@ footer {
 
   .top-wrapper .btn {
     width: 100%;
-  }
-
-  .twitter {
-    margin-top: 10px;
   }
 
   .top-wrapper {
